@@ -1,0 +1,27 @@
+{
+  "name": "master-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:watch": "node --env-file=.env --watch src/index.js",
+    "start": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aperalta15/master-test-api.git"
+  },
+  "author": "Antonio Peralta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aperalta15/master-test-api/issues"
+  },
+  "homepage": "https://github.com/Aperalta15/master-test-api#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
